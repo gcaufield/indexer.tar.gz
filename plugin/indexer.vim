@@ -2310,7 +2310,7 @@ if !exists('g:indexer_enableWhenProjectDirFound')
 endif
 
 if !exists('g:indexer_ctagsCommandLineOptions')
-   let g:indexer_ctagsCommandLineOptions = '--c++-kinds=+p+l --fields=+iaS --extra=+q'
+   let g:indexer_ctagsCommandLineOptions = '--c++-kinds=+p+l --fields=+iaS --extras=+q'
 endif
 
 if !exists('g:indexer_handlePath')
